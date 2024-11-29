@@ -1,0 +1,21 @@
+{
+  "serverUrl": "3.1.94.250",
+  "apiPort": 5000,
+  "wsPort": 6000,
+  "network": {
+    "chainId": "0x1",
+    "networkId": 1,
+    "version": "CoreHiveAi/v0.1.0"
+  },
+  "consensus": {
+    "minComputationalPower": 10,
+    "initialDifficulty": 4,
+    "blockTime": 15,
+    "rewardAdjustmentPeriod": 2016
+  },
+  "mining": {
+    "initialReward": 10,
+    "maxSupply": 60000000,
+    "rewardHalvingBlocks": 210000
+  }
+}
